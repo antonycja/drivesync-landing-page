@@ -34,6 +34,11 @@ export default function PracticeMode() {
     setIndex((i) => (i + 1) % questions.length);
   };
 
+  const prev = () => {
+    setSelected(null);
+    setIndex((i) => (i - 1 + questions.length) % questions.length);
+  };
+
   const pct = Math.round((answered / questions.length) * 100);
 
   return (
@@ -56,12 +61,20 @@ export default function PracticeMode() {
           showResult={selected !== null}
         />
         {selected !== null && (
-          <button
-            onClick={next}
-            className="mt-6 w-full bg-blue-600 hover:bg-blue-500 text-white font-medium py-3 rounded-xl transition-colors"
-          >
-            Next Question
-          </button>
+          <div className="mt-6 flex gap-3">
+            <button
+              onClick={prev}
+              className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-medium py-3 rounded-xl transition-colors"
+            >
+              ← Previous
+            </button>
+            <button
+              onClick={next}
+              className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-medium py-3 rounded-xl transition-colors"
+            >
+              Next Question →
+            </button>
+          </div>
         )}
       </div>
     </div>
