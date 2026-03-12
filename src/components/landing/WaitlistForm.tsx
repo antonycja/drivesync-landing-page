@@ -2,14 +2,23 @@
 
 import { useState } from "react";
 
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 export default function WaitlistForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error" | "duplicate">("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
+  const isEmailValid = emailRegex.test(email);
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    if (!isEmailValid) {
+      setErrorMsg("Please enter a valid email address.");
+      setStatus("error");
+      return;
+    }
     setStatus("loading");
     try {
       const res = await fetch("/api/waitlist", {
@@ -64,8 +73,13 @@ export default function WaitlistForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          className="w-full bg-slate-700/50 border border-slate-600 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 transition-colors"
+          className={`w-full bg-slate-700/50 border rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-400 focus:outline-none transition-colors ${
+            email && !isEmailValid ? "border-red-500 focus:border-red-500" : "border-slate-600 focus:border-blue-500"
+          }`}
         />
+        {email && !isEmailValid && (
+          <p className="text-red-400 text-xs mt-1">Please enter a valid email address.</p>
+        )}
       </div>
       {status === "duplicate" && (
         <p className="text-yellow-400 text-xs">This email is already on the waitlist.</p>
@@ -75,7 +89,7 @@ export default function WaitlistForm() {
       )}
       <button
         type="submit"
-        disabled={status === "loading"}
+        disabled={status === "loading" || !isEmailValid || !email}
         className="w-full bg-blue-600 hover:bg-blue-500 disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold py-2.5 rounded-lg transition-colors text-sm"
       >
         {status === "loading" ? "Joining..." : "Get Early Access"}
