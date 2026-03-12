@@ -94,6 +94,31 @@ export default function TestSimulator() {
 
   const { history, addAttempt, clearHistory } = useTestHistory();
 
+  // Prevent navigation away during active test
+  useEffect(() => {
+    if (state !== "in_progress") return;
+
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "";
+      return "";
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        alert("⚠️ Warning: Do not switch tabs during the test. Your progress will be saved.");
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [state]);
+
   const startTest = useCallback(() => {
     const qs = pickQuestions();
     setQuestions(qs);
