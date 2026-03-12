@@ -53,7 +53,7 @@ export default function PracticeMode() {
         <div className="bg-blue-500 h-1.5 rounded-full transition-all" style={{ width: `${pct}%` }} />
       </div>
 
-      <div className="bg-slate-800 border border-slate-700 rounded-2xl p-6">
+      <div className="bg-slate-800 border border-slate-700 rounded-2xl p-6 min-h-96">
         <QuestionCard
           question={q}
           selected={selected}
