@@ -60,22 +60,20 @@ export default function PracticeMode() {
           onSelect={handleSelect}
           showResult={selected !== null}
         />
-        {selected !== null && (
-          <div className="mt-6 flex gap-3">
-            <button
-              onClick={prev}
-              className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-medium py-3 rounded-xl transition-colors"
-            >
-              ← Previous
-            </button>
-            <button
-              onClick={next}
-              className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-medium py-3 rounded-xl transition-colors"
-            >
-              Next Question →
-            </button>
-          </div>
-        )}
+        <div className="mt-6 flex gap-3">
+          <button
+            onClick={prev}
+            className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-medium py-3 rounded-xl transition-colors"
+          >
+            ← Previous
+          </button>
+          <button
+            onClick={next}
+            className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-medium py-3 rounded-xl transition-colors"
+          >
+            Next Question →
+          </button>
+        </div>
       </div>
     </div>
   );
