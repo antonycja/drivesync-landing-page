@@ -4,6 +4,14 @@ import { useState, useCallback } from "react";
 import allQuestions from "@/data/questions.json";
 import QuestionCard from "@/components/test/QuestionCard";
 
+type SectionFilter = "all" | "vehicle_controls" | "road_signs" | "rules";
+
+const sectionLabels: Record<string, string> = {
+  vehicle_controls: "Vehicle Controls",
+  road_signs: "Road Signs",
+  rules: "Rules of the Road",
+};
+
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -14,11 +22,26 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function PracticeMode() {
-  const [questions] = useState(() => shuffle(allQuestions));
+  const [filter, setFilter] = useState<SectionFilter>("all");
+  const [filteredQuestions] = useState(() => {
+    const filtered = filter === "all" ? allQuestions : allQuestions.filter((q) => q.section === filter);
+    return shuffle(filtered);
+  });
+  const [questions, setQuestions] = useState(filteredQuestions);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [answered, setAnswered] = useState(0);
   const [correct, setCorrect] = useState(0);
+
+  const handleFilterChange = (newFilter: SectionFilter) => {
+    setFilter(newFilter);
+    const filtered = newFilter === "all" ? allQuestions : allQuestions.filter((q) => q.section === newFilter);
+    setQuestions(shuffle(filtered));
+    setIndex(0);
+    setSelected(null);
+    setAnswered(0);
+    setCorrect(0);
+  };
 
   const q = questions[index];
 
@@ -43,6 +66,23 @@ export default function PracticeMode() {
 
   return (
     <div>
+      {/* Section filter */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {(["all", "vehicle_controls", "road_signs", "rules"] as SectionFilter[]).map((s) => (
+          <button
+            key={s}
+            onClick={() => handleFilterChange(s)}
+            className={`px-4 py-1.5 rounded-full text-sm font-medium border transition-colors ${
+              filter === s
+                ? "bg-blue-600 border-blue-600 text-white"
+                : "border-slate-600 text-slate-400 hover:text-white hover:border-slate-400"
+            }`}
+          >
+            {s === "all" ? "All" : sectionLabels[s]}
+          </button>
+        ))}
+      </div>
+
       {/* Stats bar */}
       <div className="flex items-center justify-between mb-4 text-sm">
         <span className="text-slate-400">{answered} answered · {correct} correct</span>
