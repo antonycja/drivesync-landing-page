@@ -20,14 +20,20 @@ const sectionColors: Record<string, string> = {
 
 export default function AllQuestions() {
   const [filter, setFilter] = useState<SectionFilter>("all");
+  const [search, setSearch] = useState("");
   const [expanded, setExpanded] = useState<number | null>(null);
 
-  const filtered = filter === "all" ? allQuestions : allQuestions.filter((q) => q.section === filter);
+  const filtered = allQuestions.filter((q) => {
+    const sectionMatch = filter === "all" || q.section === filter;
+    const searchMatch = search === "" || q.question.toLowerCase().includes(search.toLowerCase());
+    return sectionMatch && searchMatch;
+  });
 
   return (
     <div>
-      {/* Filter + count */}
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+      {/* Filters */}
+      <div className="space-y-4 mb-6">
+        {/* Section filters */}
         <div className="flex flex-wrap gap-2">
           {(["all", "vehicle_controls", "road_signs", "rules"] as SectionFilter[]).map((s) => (
             <button
@@ -43,7 +49,22 @@ export default function AllQuestions() {
             </button>
           ))}
         </div>
-        <span className="text-sm text-slate-500">{filtered.length} questions</span>
+
+        {/* Search input */}
+        <div>
+          <input
+            type="text"
+            placeholder="Search questions..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full bg-slate-700/50 border border-slate-600 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 transition-colors"
+          />
+        </div>
+
+        {/* Results count */}
+        <div className="text-sm text-slate-500">
+          {filtered.length} {filtered.length === 1 ? "question" : "questions"} found
+        </div>
       </div>
 
       {/* Question list */}
