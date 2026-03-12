@@ -10,6 +10,7 @@ import ProgressDashboard from "./ProgressDashboard";
 import ShareModal from "./ShareModal";
 import Link from "next/link";
 import { useTestHistory } from "@/hooks/useTestHistory";
+import { useTestContext } from "@/context/TestContext";
 import type { TestAttempt } from "@/hooks/useTestHistory";
 
 type State = "idle" | "in_progress" | "review" | "results";
@@ -85,6 +86,7 @@ export default function TestSimulator() {
   const [currentAttempt, setCurrentAttempt] = useState<TestAttempt | null>(null);
   const [shareAttempt, setShareAttempt] = useState<TestAttempt | null>(null);
   const timerKey = useRef(0);
+  const { setTestActive } = useTestContext();
 
   // Stable refs so handleExpire (a memoized callback) always sees fresh state
   const questionsRef = useRef(questions);
@@ -93,6 +95,11 @@ export default function TestSimulator() {
   useEffect(() => { answersRef.current = answers; }, [answers]);
 
   const { history, addAttempt, clearHistory } = useTestHistory();
+
+  // Update test context when state changes
+  useEffect(() => {
+    setTestActive(state === "in_progress");
+  }, [state, setTestActive]);
 
   // Prevent navigation away during active test
   useEffect(() => {
