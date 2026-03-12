@@ -92,7 +92,7 @@ export default function WaitlistForm() {
         disabled={status === "loading" || !isEmailValid || !email}
         className="w-full bg-blue-600 hover:bg-blue-500 disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold py-2.5 rounded-lg transition-colors text-sm"
       >
-        {status === "loading" ? "Joining..." : "Get Early Access"}
+        {status === "loading" ? "Joining..." : "Join the Waitlist"}
       </button>
       <p className="text-xs text-slate-500 text-center">No spam. Unsubscribe anytime.</p>
     </form>
