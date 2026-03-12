@@ -5,7 +5,15 @@ const BACKEND_URL =
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
+    let body;
+    try {
+      body = await req.json();
+    } catch (e) {
+      return NextResponse.json(
+        { detail: "Invalid JSON in request body" },
+        { status: 400 }
+      );
+    }
 
     const upstream = await fetch(`${BACKEND_URL}/api/v1/waitlist`, {
       method: "POST",
@@ -16,10 +24,11 @@ export async function POST(req: NextRequest) {
     const data = await upstream.json().catch(() => ({}));
 
     return NextResponse.json(data, { status: upstream.status });
-  } catch {
+  } catch (error) {
+    console.error("[waitlist] Error:", error);
     return NextResponse.json(
-      { detail: "Unable to reach the server. Please try again later." },
-      { status: 503 }
+      { detail: "Internal server error" },
+      { status: 500 }
     );
   }
 }
