@@ -63,7 +63,7 @@ export default function Navbar() {
               onClick={() => window.dispatchEvent(new CustomEvent("open-waitlist"))}
               className="hidden sm:block bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
             >
-              Get Early Access
+              Join the Waitlist
             </button>
 
             {/* Hamburger — mobile only */}
@@ -122,7 +122,7 @@ export default function Navbar() {
                 onClick={() => { setMenuOpen(false); window.dispatchEvent(new CustomEvent("open-waitlist")); }}
                 className="flex items-center justify-center w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-xl transition-colors"
               >
-                Get Early Access
+                Join the Waitlist
               </button>
             </div>
           </div>
