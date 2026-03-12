@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- South African R320: High Occupancy Vehicle / Bus Lane sign.
+     Blue rectangle, white rounded border, white diamond with number, R below. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- Outer blue rectangle -->
+  <rect x="0" y="0" width="600" height="800" fill="#00559b"/>
+  <!-- White border (inner rounded rect) -->
+  <rect x="26" y="26" width="548" height="748" rx="80" ry="80" fill="#ffffff"/>
+  <!-- Blue fill of inner area -->
+  <rect x="52" y="52" width="496" height="696" rx="60" ry="60" fill="#00559b"/>
+  <!-- White diamond outline -->
+  <polygon points="300,120 460,280 300,440 140,280" fill="none" stroke="#ffffff" stroke-width="22"/>
+  <!-- Number inside diamond -->
+  <text x="300" y="300"
+        font-family="'DIN 1451 Mittelschrift','Arial Narrow',Arial,sans-serif"
+        font-size="160" font-weight="bold"
+        fill="#ffffff" text-anchor="middle" dominant-baseline="middle">12</text>
+  <!-- Large R below diamond -->
+  <text x="300" y="620"
+        font-family="'DIN 1451 Mittelschrift','Arial Narrow',Arial,sans-serif"
+        font-size="240" font-weight="bold"
+        fill="#ffffff" text-anchor="middle" dominant-baseline="middle">R</text>
+</svg>

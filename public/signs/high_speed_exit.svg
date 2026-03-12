@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- GF527: High Speed Exit 100m ahead. Blue background, white diagonal stripe. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 480" width="340" height="480">
+  <!-- Blue background -->
+  <rect x="0" y="0" width="340" height="480" rx="16" fill="#00559b"/>
+  <!-- White diagonal stripe from top-right to bottom-left -->
+  <polygon points="340,0 340,280 160,480 0,480 0,340 220,0" fill="#ffffff"/>
+  <!-- Distance text -->
+  <text x="80" y="430" font-family="'DIN 1451 Mittelschrift','Arial Narrow',Arial,sans-serif"
+        font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle">100m</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 170" width="160" height="170">
+  <rect x="0" y="0" width="160" height="170" rx="8" fill="#007a3d"/>
+  <!-- Red header band -->
+  <rect x="0" y="0" width="160" height="36" rx="8" fill="#e20a16"/>
+  <rect x="0" y="22" width="160" height="14" fill="#e20a16"/>
+  <text x="80" y="22" font-size="16" fill="#ffffff" text-anchor="middle"
+        dominant-baseline="middle" font-weight="bold" font-family="Arial,sans-serif">T-JUNCTION</text>
+  <!-- Road diagram: T shape, white roads on green -->
+  <!-- Horizontal road -->
+  <rect x="20" y="70" width="120" height="28" rx="4" fill="#ffffff"/>
+  <!-- Vertical road coming from bottom -->
+  <rect x="66" y="98" width="28" height="58" rx="0" fill="#ffffff"/>
+  <!-- Arrows: left + right + down (up?) -->
+  <polygon points="30,84 16,84 26,72 26,96" fill="#007a3d"/>
+  <polygon points="130,84 144,84 134,72 134,96" fill="#007a3d"/>
+</svg>

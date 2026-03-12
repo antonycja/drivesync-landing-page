@@ -1,0 +1,578 @@
+[
+  {
+    "id": 1,
+    "section": "vehicle_controls",
+    "question": "What is the function of control number 9 in the vehicle?",
+    "options": ["To change the direction of the vehicle", "To slow down or stop the vehicle", "To select the appropriate gear"],
+    "correct": 1,
+    "image": null,
+    "explanation": "Control 9 is the foot brake (service brake), used to slow down or stop the vehicle."
+  },
+  {
+    "id": 2,
+    "section": "vehicle_controls",
+    "question": "To increase or decrease the speed of the vehicle you need to use the ...",
+    "options": ["accelerator", "brakes", "clutch"],
+    "correct": 0,
+    "image": null,
+    "explanation": "The accelerator (control 1) controls engine power and therefore vehicle speed."
+  },
+  {
+    "id": 3,
+    "section": "vehicle_controls",
+    "question": "The following control is used to select the appropriate gear of the vehicle:",
+    "options": ["8", "7", "6"],
+    "correct": 1,
+    "image": null,
+    "explanation": "Control 7 is the gear lever (gear selector), used to select the appropriate gear."
+  },
+  {
+    "id": 4,
+    "section": "vehicle_controls",
+    "question": "To select a gear, you must use numbers ...",
+    "options": ["6 and 8", "5 and 8", "7 and 9"],
+    "correct": 0,
+    "image": null,
+    "explanation": "The gear lever (6) and clutch (8) must be used together to select a gear."
+  },
+  {
+    "id": 5,
+    "section": "vehicle_controls",
+    "question": "The following control is used to change the direction of the vehicle:",
+    "options": ["6", "4", "5"],
+    "correct": 1,
+    "image": null,
+    "explanation": "Control 4 is the steering wheel, used to change the direction of the vehicle."
+  },
+  {
+    "id": 6,
+    "section": "vehicle_controls",
+    "question": "Which controls must you use when there is a sharp turn in the road?",
+    "options": ["1, 3, 5, 6 and 8 only", "3, 6, 5, 9 and 10 only", "1, 3, 4, 6, 8, 9 and 10 only"],
+    "correct": 1,
+    "image": null,
+    "explanation": "A sharp turn requires: steering (4), brakes (9), accelerator (1), mirrors (3), gear (6), clutch (8) and indicators (10)."
+  },
+  {
+    "id": 7,
+    "section": "vehicle_controls",
+    "question": "The following is used to monitor traffic:",
+    "options": ["5", "4", "3"],
+    "correct": 2,
+    "image": null,
+    "explanation": "Control 3 refers to the rearview mirrors, used to monitor traffic around and behind the vehicle."
+  },
+  {
+    "id": 8,
+    "section": "vehicle_controls",
+    "question": "When control number 9 is used, the distance it takes to stop is longer: (i) on a wet road (ii) at a higher speed (iii) when the vehicle is loaded. SELECT THE CORRECT COMBINATION",
+    "options": ["All of the above are correct", "None of the above are correct", "Only (i) is correct"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Stopping distance is longer on wet roads, at higher speeds, and when the vehicle is loaded — all three are correct."
+  },
+  {
+    "id": 9,
+    "section": "rules",
+    "question": "Head lamps, rear lamps and number plate lights must be switched on ...",
+    "options": ["between sunset and sunrise", "during peak hours", "at all times"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Lights must be on from sunset to sunrise and whenever visibility is under 150m."
+  },
+  {
+    "id": 10,
+    "section": "rules",
+    "question": "The use of a temporary sign implies that for some reason ...",
+    "options": ["circumstances on the roadway are not normal", "traffic has to move slowly", "the rules of the road do not apply"],
+    "correct": 0,
+    "image": null,
+    "explanation": "A temporary sign indicates abnormal conditions on the road such as roadworks or an accident."
+  },
+  {
+    "id": 11,
+    "section": "rules",
+    "question": "A temporary sign ...",
+    "options": ["has the same legal significance as a permanent sign", "need not be taken seriously at all times of the day", "is of less consequence to road users than a permanent sign"],
+    "correct": 0,
+    "image": null,
+    "explanation": "A temporary sign carries the same legal weight as a permanent sign and must be obeyed."
+  },
+  {
+    "id": 12,
+    "section": "rules",
+    "question": "On which side of the roadway may you drive if the roadway is wide enough without endangering other traffic?",
+    "options": ["A driver shall drive on the left side of the roadway", "A driver may encroach on the right-hand of a roadway if the car in front is driving slowly", "A driver may drive on the right-hand side provided there is no traffic"],
+    "correct": 0,
+    "image": null,
+    "explanation": "In South Africa, vehicles must drive on the left side of the road at all times."
+  },
+  {
+    "id": 13,
+    "section": "rules",
+    "question": "When driving a motor vehicle, what is the minimum safe following distance to maintain when following another vehicle?",
+    "options": ["A distance determined by means of the two second rule", "A driver may drive as close as possible so that overtaking will be easier", "Five metres at 100 km/h"],
+    "correct": 0,
+    "image": null,
+    "explanation": "The two-second rule is the minimum safe following distance."
+  },
+  {
+    "id": 14,
+    "section": "rules",
+    "question": "What should a driver consider when following another vehicle?",
+    "options": ["The driver should follow at a safe distance and be able to stop safely in an emergency or should the vehicle in front slow down or stop", "The driver should be able to see the rear tyres of the vehicle in front", "The driver should follow another vehicle keeping three car lengths behind"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Following at a safe distance allows time and space to react and stop safely."
+  },
+  {
+    "id": 15,
+    "section": "rules",
+    "question": "When moving off from a stationary position at the side of the road, what is the responsibility of the driver?",
+    "options": ["The driver must ensure that it is safe and that he/she will not interfere with traffic approaching from any direction", "The driver must join other traffic as quickly as possible", "The driver must indicate his/her intention and then move off"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Before moving off, a driver must ensure it is completely safe and will not endanger any approaching traffic."
+  },
+  {
+    "id": 16,
+    "section": "rules",
+    "question": "When is it permissible to allow a portion of the body to protrude beyond a vehicle's window?",
+    "options": ["When it is hot and the driver's window is open", "Only for the driver to give a hand signal", "Only passengers may have a portion of their body protruding"],
+    "correct": 1,
+    "image": null,
+    "explanation": "Only the driver may have part of their body outside the vehicle, and only to give a hand signal."
+  },
+  {
+    "id": 17,
+    "section": "rules",
+    "question": "No person driving a vehicle on a public road may ...",
+    "options": ["leave a vehicle unattended without applying its parking brake to prevent it from moving from the position in which it was left", "leave a vehicle unattended without applying its parking brake to prevent it from moving further than 30 cm", "leave a vehicle unattended without applying its service brake to prevent it from moving"],
+    "correct": 0,
+    "image": null,
+    "explanation": "The parking brake must be applied whenever a vehicle is left unattended to prevent any movement."
+  },
+  {
+    "id": 18,
+    "section": "rules",
+    "question": "The lights of your vehicle parked on a public road between sunset and sunrise need not be kept lighted when parked: (i) 10 m from a lighted street lamp (ii) next to the roadway of the road (iii) in a demarcated parking area. SELECT THE CORRECT COMBINATION",
+    "options": ["Only (i) and (iii) are correct", "Only (ii) and (iii) are correct", "All of the above are correct"],
+    "correct": 2,
+    "image": null,
+    "explanation": "All three conditions excuse a parked vehicle from keeping lights on."
+  },
+  {
+    "id": 19,
+    "section": "rules",
+    "question": "If you only have a learner's licence for a heavy motor vehicle: (i) then there must be someone with you in the vehicle with the same driving licence (ii) you are not allowed to drive on a freeway (iii) no passengers are allowed with you in the vehicle. SELECT THE CORRECT COMBINATION",
+    "options": ["All the above are correct", "Only (i) is correct", "Only (i) and (iii) are correct"],
+    "correct": 0,
+    "image": null,
+    "explanation": "All three conditions apply to learner drivers: supervision required, freeway ban, and no passengers."
+  },
+  {
+    "id": 20,
+    "section": "rules",
+    "question": "What is the requirement regarding noise caused by a heavy motor vehicle?",
+    "options": ["Heavy vehicles must have a special silencer fitted", "No person shall operate a vehicle causing excessive noise", "Heavy vehicles must reduce speed in residential areas to reduce noise"],
+    "correct": 1,
+    "image": null,
+    "explanation": "No person shall operate a vehicle in a manner that causes excessive or unnecessary noise."
+  },
+  {
+    "id": 21,
+    "section": "rules",
+    "question": "A silencer ...",
+    "options": ["is optional if the vehicle has a modern engine", "reduces emissions to safe levels", "must be fitted to restrict engine noise"],
+    "correct": 2,
+    "image": null,
+    "explanation": "Every vehicle must have a silencer fitted to restrict engine and exhaust noise."
+  },
+  {
+    "id": 22,
+    "section": "rules",
+    "question": "Which one of the following statements is correct?",
+    "options": ["Pedal cycles are not permitted on a freeway", "Racing cycles may be ridden on a freeway during the day only", "Pedal cycles may only be ridden on the shoulder of the freeway"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Pedal cycles (bicycles) are prohibited from freeways entirely."
+  },
+  {
+    "id": 23,
+    "section": "rules",
+    "question": "Your vehicle's headlights must be switched on: (i) when you cannot see persons and vehicles 150 m in front (ii) from sunset to sunrise (iii) when it rains and you cannot see vehicles 100 m in front. SELECT THE CORRECT COMBINATION",
+    "options": ["All of the above are correct", "Only (ii) is correct", "Only (i) and (ii) are correct"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Headlights are required in all three situations."
+  },
+  {
+    "id": 24,
+    "section": "rules",
+    "question": "What type of heavy motor vehicle is restricted to travel at a maximum speed of 80 km/h?",
+    "options": ["An articulated motor vehicle of which the gross combination mass of truck-tractor exceeds 9 000 kg", "Only vehicles carrying goods which belong to the government and traffic police", "Any heavy motor vehicle carrying goods"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Articulated vehicles with a GCM exceeding 9 000 kg are restricted to 80 km/h."
+  },
+  {
+    "id": 25,
+    "section": "rules",
+    "question": "Where a goods vehicle is temporarily stationary on the roadway of a public road, the driver must ...",
+    "options": ["display one emergency warning sign in the front and one at the back of the vehicle", "put out a red fire extinguisher to warn traffic", "display at least one emergency warning sign at the back of the vehicle"],
+    "correct": 0,
+    "image": null,
+    "explanation": "A stationary goods vehicle must display emergency warning signs both in front and behind."
+  },
+  {
+    "id": 26,
+    "section": "rules",
+    "question": "When is it permissible to park in a \"no stopping\" area?",
+    "options": ["Parking is permissible, however, only stopping is not permissible", "Only if no other parking area is available", "It is not permissible to park where stopping is not permitted"],
+    "correct": 2,
+    "image": null,
+    "explanation": "If stopping is prohibited, parking (which requires stopping) is also not permitted."
+  },
+  {
+    "id": 27,
+    "section": "rules",
+    "question": "You have a driving licence. Where should the licence document be?",
+    "options": ["At home in a safe place", "With you in the vehicle", "At the traffic department"],
+    "correct": 1,
+    "image": null,
+    "explanation": "A driver must carry their driving licence with them in the vehicle at all times while driving."
+  },
+  {
+    "id": 28,
+    "section": "rules",
+    "question": "You may not (i) drive without a licence (ii) drive while drunk (iii) exceed the speed limit. SELECT CORRECT COMBINATION",
+    "options": ["Only (i) and (ii) are not allowed", "Only (iii) is not allowed", "None of the above are allowed"],
+    "correct": 2,
+    "image": null,
+    "explanation": "All three actions are prohibited under South African road law."
+  },
+  {
+    "id": 29,
+    "section": "rules",
+    "question": "When the robot is red and the red arrow flashes to the left as shown, it tells you that ...",
+    "options": ["you don't have to stop and you may just turn left", "you must stop behind the line and proceed left if it is safe to do so even if the red light is on", "you must slow down and then turn left without yielding to other traffic"],
+    "correct": 1,
+    "image": "/signs/traffic_light_arrow.svg",
+    "explanation": "A flashing red left-arrow means you must stop, then may proceed left when safe, even with the red light showing."
+  },
+  {
+    "id": 30,
+    "section": "rules",
+    "question": "The appropriate reaction to this sign is to ...",
+    "options": ["stop, as the road is closed", "turn around as the road ends", "slow down and prepare to stop if necessary"],
+    "correct": 2,
+    "image": "/signs/chevrons.svg",
+    "explanation": "Red and white chevrons warn of a sharp bend or narrowing — slow down and be prepared to stop."
+  },
+  {
+    "id": 31,
+    "section": "rules",
+    "question": "When a vehicle is travelling in the right hand lane, as shown in this sign, the driver must ...",
+    "options": ["drive faster than or drive 60 km/h", "drive slower than 60 km/h", "overtake vehicles in the right lane that are travelling slower than 60 km/h"],
+    "correct": 0,
+    "image": "/signs/min_speed_60.svg",
+    "explanation": "When a minimum speed sign shows 60 km/h in the right-hand lane, you must drive at or above 60 km/h."
+  },
+  {
+    "id": 32,
+    "section": "rules",
+    "question": "This sign indicates to the driver of a vehicle that ...",
+    "options": ["the maximum speed limit in the right-hand lane is 80 km per hour", "the minimum speed limit in the right-hand lane is permanently 80 km per hour", "the minimum speed limit in the right-hand lane is temporarily 80 km per hour"],
+    "correct": 2,
+    "image": "/signs/min_speed_80_temp.svg",
+    "explanation": "A yellow background on a speed sign indicates a temporary minimum speed restriction."
+  },
+  {
+    "id": 33,
+    "section": "road_signs",
+    "question": "When the driver sees this sign, he/she must ...",
+    "options": ["turn left at the next road if he/she drives a delivery vehicle", "turn left if he/she drives a goods vehicle", "turn left at the stop sign"],
+    "correct": 0,
+    "image": "/signs/delivery_turn_left.svg",
+    "explanation": "The blue turn-left sign combined with the delivery vehicle symbol means delivery vehicles must turn left at the next road."
+  },
+  {
+    "id": 34,
+    "section": "road_signs",
+    "question": "When approaching this sign, the driver knows that ...",
+    "options": ["a lane is added to the left of a two-way roadway", "the people driving on the left side of the road must turn left", "vehicles may be overtaken on the left side from there on"],
+    "correct": 0,
+    "image": "/signs/lane_addition.svg",
+    "explanation": "The yellow sign with upward arrows showing a lane merging in from the left indicates a lane addition to the left of the roadway."
+  },
+  {
+    "id": 35,
+    "section": "road_signs",
+    "question": "This sign shows the driver of the vehicle that ...",
+    "options": ["at the next intersection the driver must turn right", "the road turns to the right only", "there is an alternative route at the next intersection to the right"],
+    "correct": 2,
+    "image": "/signs/alternative_route.svg",
+    "explanation": "The green sign with 'A' in a yellow circle and a right arrow indicates an alternative route to the right at the next intersection."
+  },
+  {
+    "id": 36,
+    "section": "road_signs",
+    "question": "This sign indicates ...",
+    "options": ["that all traffic must turn right", "the presence of a bridge", "the direction to a freeway"],
+    "correct": 1,
+    "image": "/signs/n12_bridge.svg",
+    "explanation": "The N12 sign with a bridge symbol (two pillars and an arch) indicates the presence of a bridge on that national road."
+  },
+  {
+    "id": 37,
+    "section": "road_signs",
+    "question": "This type of sign is known as ...",
+    "options": ["a regulatory sign", "a warning sign", "an information sign"],
+    "correct": 1,
+    "image": "/signs/t_junction_info.svg",
+    "explanation": "T-junction signs with this design are warning signs alerting drivers to the road layout ahead."
+  },
+  {
+    "id": 38,
+    "section": "road_signs",
+    "question": "This sign shows to riders of motor cycles that ...",
+    "options": ["they have preference in that part of the road", "they must use that part of the road", "there is parking for motor cycles there"],
+    "correct": 1,
+    "image": "/signs/motorcycle_r.svg",
+    "explanation": "The blue sign with motorcycle symbol and 'R' indicates that motorcyclists are required to use that designated lane."
+  },
+  {
+    "id": 39,
+    "section": "road_signs",
+    "question": "This road marking warns you that ...",
+    "options": ["you will have to change lanes ahead", "a railway line will be crossing the road at the same level", "you may not enter this parking area"],
+    "correct": 1,
+    "image": "/signs/railway_x.svg",
+    "explanation": "The X road marking warns drivers that a railway line crosses the road at the same level (level crossing)."
+  },
+  {
+    "id": 40,
+    "section": "road_signs",
+    "question": "This sign shows you that ...",
+    "options": ["the taking of photographs is not permitted", "there is a photographic studio", "there is a camera monitoring the intersection at the traffic light"],
+    "correct": 2,
+    "image": "/signs/traffic_camera.svg",
+    "explanation": "The traffic light with camera icon indicates a speed or red-light camera is monitoring the intersection."
+  },
+  {
+    "id": 41,
+    "section": "road_signs",
+    "question": "This sign shows the driver that ...",
+    "options": ["motor vehicles may not overtake goods vehicles", "a goods vehicle may not overtake any other vehicle", "there may not be any overtaking by goods vehicles"],
+    "correct": 2,
+    "image": "/signs/no_overtaking_trucks.svg",
+    "explanation": "The no-overtaking sign with two trucks means goods vehicles are prohibited from overtaking."
+  },
+  {
+    "id": 42,
+    "section": "road_signs",
+    "question": "When seeing this sign the driver knows that he/she must ...",
+    "options": ["proceed on the left side of the road", "keep in the left lane only", "pass to the left of the obstacle on which the sign has been placed"],
+    "correct": 1,
+    "image": "/signs/keep_left.svg",
+    "explanation": "The blue circle with a diagonal down-left white arrow is a mandatory direction sign meaning keep in the left lane only."
+  },
+  {
+    "id": 43,
+    "section": "road_signs",
+    "question": "This sign indicates to a driver that a high speed exit is ... ahead.",
+    "options": ["1 km", "100 meters", "10 meters"],
+    "correct": 1,
+    "image": "/signs/high_speed_exit.svg",
+    "explanation": "The blue sign with a white diagonal stripe indicates a high-speed exit is 100 metres ahead."
+  },
+  {
+    "id": 44,
+    "section": "road_signs",
+    "question": "What will this road marking indicate to the driver?",
+    "options": ["No overtaking is permitted", "Lanes are reducing from the right", "The vehicle in the right hand lane has right of way"],
+    "correct": 1,
+    "image": "/signs/lane_reduction.svg",
+    "explanation": "Arrow road markings showing lanes converging from the right indicate lane reduction from that side."
+  },
+  {
+    "id": 45,
+    "section": "road_signs",
+    "question": "This road marking tells you that ...",
+    "options": ["you may never park next to the road indicated by the black arrow", "you may not stop next to the road over there", "the road is under construction"],
+    "correct": 0,
+    "image": "/signs/kerb_no_park.svg",
+    "explanation": "Yellow kerb markings with a black arrow indicate no parking is permitted alongside that section of road."
+  },
+  {
+    "id": 46,
+    "section": "road_signs",
+    "question": "This sign indicates that ...",
+    "options": ["you must yield to oncoming traffic — it is a regulatory sign showing the road width is restricted", "this is an information sign about road width", "this is a warning sign about narrow road ahead"],
+    "correct": 0,
+    "image": "/signs/yield_to_oncoming.svg",
+    "explanation": "The red circle with a red up-arrow and black down-arrow means yield to oncoming traffic — regulatory, width restriction."
+  },
+  {
+    "id": 47,
+    "section": "road_signs",
+    "question": "The GS403 sign indicates that ...",
+    "options": ["a lane is being added on the left", "lanes are merging without reduction of any lane", "you must move to the right lane"],
+    "correct": 1,
+    "image": "/signs/gs403.svg",
+    "explanation": "GS403 shows lanes merging but without any lane being eliminated — traffic must merge smoothly."
+  },
+  {
+    "id": 48,
+    "section": "road_signs",
+    "question": "The R320 sign designates ...",
+    "options": ["a bus-only lane", "a high-occupancy vehicle or bus lane", "a lane for goods vehicles only"],
+    "correct": 1,
+    "image": "/signs/r320.svg",
+    "explanation": "R320 is an information sign designating high-occupancy vehicle or bus lanes."
+  },
+  {
+    "id": 49,
+    "section": "road_signs",
+    "question": "The GF12 sign tells the driver ...",
+    "options": ["the distance to a toll plaza", "an emergency SOS call station is ahead at the indicated distance", "that it is a government facility only"],
+    "correct": 1,
+    "image": "/signs/gf12.svg",
+    "explanation": "GF12 is a freeway service sign indicating an emergency SOS telephone call station at the specified distance."
+  },
+  {
+    "id": 50,
+    "section": "road_signs",
+    "question": "The GA4 sign on a freeway means ...",
+    "options": ["you must exit the freeway immediately", "this is the direction to leave the freeway", "the freeway is ending"],
+    "correct": 1,
+    "image": "/signs/ga4.svg",
+    "explanation": "GA4 is a freeway exit direction sign indicating the direction to leave the freeway."
+  },
+  {
+    "id": 51,
+    "section": "road_signs",
+    "question": "Warning signs W102–W109 (red triangles with intersection arrows) are known as ...",
+    "options": ["regulatory intersection signs", "direction of movement signs", "information signs"],
+    "correct": 1,
+    "image": "/signs/w102.svg",
+    "explanation": "W102–W109 are warning signs showing different intersection configurations and direction of movement."
+  },
+  {
+    "id": 52,
+    "section": "road_signs",
+    "question": "This sign (W104) warns the driver of ...",
+    "options": ["a crossroads ahead", "a T-intersection ahead where the road ends", "a Y-junction ahead"],
+    "correct": 1,
+    "image": "/signs/w104.svg",
+    "explanation": "W104 is a warning sign indicating a T-intersection ahead — the road you are on ends."
+  },
+  {
+    "id": 53,
+    "section": "road_signs",
+    "question": "A blue circle with a white turn-left arrow (mandatory instruction sign) means ...",
+    "options": ["you may turn left if safe", "you must turn left", "turn left only at night"],
+    "correct": 1,
+    "image": "/signs/turn_left.svg",
+    "explanation": "A blue circle with a white turn-left arrow is a mandatory direction sign — the driver MUST turn left."
+  },
+  {
+    "id": 54,
+    "section": "road_signs",
+    "question": "A STOP sign requires the driver to ...",
+    "options": ["slow down and proceed if clear", "stop completely before the stop line, then proceed when safe", "hoot and proceed"],
+    "correct": 1,
+    "image": "/signs/stop.svg",
+    "explanation": "A STOP sign requires a complete stop before the stop line, then proceeding only when the way is clear."
+  },
+  {
+    "id": 55,
+    "section": "road_signs",
+    "question": "A YIELD sign requires the driver to ...",
+    "options": ["stop completely at all times", "give right of way to traffic already on the road you are entering", "accelerate to merge with traffic"],
+    "correct": 1,
+    "image": "/signs/yield.svg",
+    "explanation": "A YIELD sign means give way to traffic already on the road — you must stop if necessary."
+  },
+  {
+    "id": 56,
+    "section": "road_signs",
+    "question": "A broken white centre line means ...",
+    "options": ["no overtaking is permitted", "overtaking is permitted when safe to do so", "the road is one-way"],
+    "correct": 1,
+    "image": null,
+    "explanation": "A broken white centre line means overtaking and crossing are permitted when it is safe to do so."
+  },
+  {
+    "id": 57,
+    "section": "road_signs",
+    "question": "A single unbroken (solid) white line along the road means ...",
+    "options": ["you may cross it to overtake", "you may not cross it except to avoid an obstacle or turn off", "it marks the edge of the road only"],
+    "correct": 1,
+    "image": null,
+    "explanation": "A solid white line may only be crossed when turning into a property or avoiding an obstacle."
+  },
+  {
+    "id": 58,
+    "section": "rules",
+    "question": "The maximum speed limit on a freeway in South Africa is ...",
+    "options": ["100 km/h", "120 km/h", "140 km/h"],
+    "correct": 1,
+    "image": null,
+    "explanation": "The maximum speed limit on South African freeways is 120 km/h for light motor vehicles."
+  },
+  {
+    "id": 59,
+    "section": "rules",
+    "question": "The maximum speed limit in an urban area (town/city) in South Africa is ...",
+    "options": ["80 km/h", "60 km/h", "50 km/h"],
+    "correct": 1,
+    "image": null,
+    "explanation": "The default speed limit in urban areas (within town limits) is 60 km/h unless otherwise indicated."
+  },
+  {
+    "id": 60,
+    "section": "rules",
+    "question": "The maximum speed limit on a public road outside an urban area (rural road) is ...",
+    "options": ["100 km/h", "120 km/h", "80 km/h"],
+    "correct": 0,
+    "image": null,
+    "explanation": "The default speed limit on rural roads outside urban areas is 100 km/h."
+  },
+  {
+    "id": 61,
+    "section": "rules",
+    "question": "At an uncontrolled intersection (no signs or traffic lights), who has right of way?",
+    "options": ["The vehicle on the right has right of way", "The vehicle on the left has right of way", "The faster vehicle has right of way"],
+    "correct": 0,
+    "image": null,
+    "explanation": "At an uncontrolled intersection, the vehicle approaching from the right has right of way."
+  },
+  {
+    "id": 62,
+    "section": "rules",
+    "question": "A learner driver may NOT ...",
+    "options": ["drive on a public road with a supervisor in the car", "drive on a freeway under any circumstances", "drive a vehicle under 3 500 kg"],
+    "correct": 1,
+    "image": null,
+    "explanation": "Learner drivers are prohibited from driving on freeways regardless of supervision."
+  },
+  {
+    "id": 63,
+    "section": "rules",
+    "question": "The blood alcohol limit for an ordinary driver in South Africa is ...",
+    "options": ["0.08 g/100ml", "0.05 g/100ml", "0.02 g/100ml"],
+    "correct": 1,
+    "image": null,
+    "explanation": "The legal blood alcohol limit for ordinary drivers is 0.05 g/100ml. For learners and professional drivers it is 0.02 g/100ml."
+  },
+  {
+    "id": 64,
+    "section": "rules",
+    "question": "When may a driver use hazard warning lights (emergency flashers)?",
+    "options": ["To warn others that the vehicle is a hazard to traffic", "When driving slowly in traffic", "When parking anywhere temporarily"],
+    "correct": 0,
+    "image": null,
+    "explanation": "Hazard lights must only be used when the vehicle constitutes a hazard to other road users."
+  }
+]

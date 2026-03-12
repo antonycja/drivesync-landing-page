@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- GF8: Freeway Service Station sign. Brown background, white text and icons. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 440" width="580" height="440">
+  <!-- Brown background -->
+  <rect x="0" y="0" width="580" height="440" rx="20" fill="#6b3a2a"/>
+  <rect x="0" y="0" width="580" height="440" rx="20" fill="none" stroke="#4a2818" stroke-width="8"/>
+  <!-- Header: place name -->
+  <text x="290" y="56" font-family="'Arial Narrow',Arial,sans-serif" font-size="42"
+        font-weight="bold" fill="#ffffff" text-anchor="middle">HEIDELBERG</text>
+  <!-- Divider line -->
+  <line x1="30" y1="80" x2="550" y2="80" stroke="#ffffff" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Row 1: Distance + fuel pump icon + towing + km -->
+  <text x="50" y="145" font-family="Arial,sans-serif" font-size="38" fill="#ffffff">59</text>
+  <!-- Fuel pump icon (simplified rectangle) -->
+  <rect x="130" y="108" width="30" height="42" rx="4" fill="#ffd70a"/>
+  <rect x="138" y="96" width="14" height="18" rx="2" fill="#ffd70a"/>
+  <rect x="158" y="112" width="14" height="28" rx="5" fill="#ffd70a"/>
+  <!-- Tow truck simplified -->
+  <rect x="190" y="115" width="60" height="32" rx="4" fill="#ffffff"/>
+  <rect x="192" y="110" width="32" height="20" rx="2" fill="#cccccc"/>
+  <circle cx="205" cy="152" r="10" fill="#ffffff"/>
+  <circle cx="238" cy="152" r="10" fill="#ffffff"/>
+  <text x="530" y="145" font-family="Arial,sans-serif" font-size="34" fill="#ffffff" text-anchor="end">2.5 km</text>
+
+  <!-- Row 2: 66 + Parking + Hospital + km -->
+  <text x="50" y="245" font-family="Arial,sans-serif" font-size="38" fill="#ffffff">66</text>
+  <circle cx="170" cy="225" r="34" fill="#00559b"/>
+  <text x="170" y="239" font-family="Arial,sans-serif" font-size="38" font-weight="bold"
+        fill="#ffffff" text-anchor="middle">P</text>
+  <circle cx="260" cy="225" r="34" fill="#e20a16"/>
+  <text x="260" y="239" font-family="Arial,sans-serif" font-size="38" font-weight="bold"
+        fill="#ffffff" text-anchor="middle">H</text>
+  <text x="530" y="245" font-family="Arial,sans-serif" font-size="34" fill="#ffffff" text-anchor="end">9.5 km</text>
+
+  <!-- Row 3: 70 + accommodation icon + km -->
+  <text x="50" y="345" font-family="Arial,sans-serif" font-size="38" fill="#ffffff">70</text>
+  <!-- Bed/accommodation icon -->
+  <rect x="130" y="308" width="70" height="50" rx="4" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <rect x="150" y="296" width="30" height="22" rx="3" fill="#ffffff"/>
+  <text x="530" y="345" font-family="Arial,sans-serif" font-size="34" fill="#ffffff" text-anchor="end">13.5 km</text>
+
+  <!-- Footer label -->
+  <text x="290" y="410" font-family="Arial,sans-serif" font-size="28" fill="#dddddd" text-anchor="middle">GF 8</text>
+</svg>

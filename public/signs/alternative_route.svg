@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 110" width="240" height="110">
+  <rect x="0" y="0" width="240" height="110" rx="8" fill="#007a3d"/>
+  <rect x="0" y="0" width="240" height="110" rx="8" fill="none" stroke="#005a2b" stroke-width="4"/>
+  <!-- Yellow circle with A -->
+  <circle cx="55" cy="55" r="38" fill="#ffd70a"/>
+  <text x="55" y="60" font-size="38" fill="#000000" text-anchor="middle"
+        dominant-baseline="middle" font-weight="bold" font-family="Arial,sans-serif">A</text>
+  <!-- Horizontal arrow pointing right -->
+  <line x1="108" y1="55" x2="190" y2="55" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <polygon points="210,55 182,39 182,71" fill="#ffffff"/>
+</svg>

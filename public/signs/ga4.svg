@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- GA4: Freeway Exit Direction sign. Blue background, route number box, curved exit arrow. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420">
+  <!-- Blue background -->
+  <rect x="0" y="0" width="640" height="420" rx="20" fill="#00559b"/>
+  <!-- Route number box (white border) -->
+  <rect x="30" y="30" width="180" height="80" rx="8" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <text x="120" y="85" font-family="'DIN 1451 Mittelschrift','Arial Narrow',Arial,sans-serif"
+        font-size="60" font-weight="bold" fill="#ffffff" text-anchor="middle">N12</text>
+  <!-- EXIT label -->
+  <text x="500" y="90" font-family="'Arial Narrow',Arial,sans-serif"
+        font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">EXIT</text>
+  <!-- Curved exit arrow pointing down-right -->
+  <path d="M 100,200 L 380,200 Q 480,200 480,300"
+        fill="none" stroke="#ffffff" stroke-width="52" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrowhead pointing down -->
+  <polygon points="480,380 400,296 560,296" fill="#ffffff"/>
+</svg>

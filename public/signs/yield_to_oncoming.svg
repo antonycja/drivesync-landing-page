@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- South African RR101: Width Restriction — Yield to Oncoming Traffic.
+     White circle, red border, red upward arrow (you yield), black downward arrow (oncoming). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <!-- White circle background -->
+  <circle cx="450" cy="450" r="450" fill="#ffffff"/>
+  <!-- Red ring border -->
+  <circle cx="450" cy="450" r="450" fill="none" stroke="#e20a16" stroke-width="52"/>
+  <!-- Red upward arrow (you must yield) -->
+  <rect x="370" y="260" width="90" height="320" fill="#e20a16"/>
+  <polygon points="415,130 290,310 540,310" fill="#e20a16"/>
+  <!-- Black downward arrow (oncoming has priority) -->
+  <rect x="440" y="320" width="90" height="320" fill="#000000"/>
+  <polygon points="485,770 360,590 610,590" fill="#000000"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140" width="220" height="140">
+  <!-- Road surface -->
+  <rect x="0" y="0" width="220" height="140" fill="#888888"/>
+  <!-- Pavement/kerb block -->
+  <rect x="0" y="100" width="220" height="40" fill="#cccccc"/>
+  <!-- Kerb edge -->
+  <rect x="0" y="96" width="220" height="8" fill="#aaaaaa"/>
+  <!-- Yellow no-parking lines on kerb (double yellow zigzag) -->
+  <polyline points="0,106 18,116 36,106 54,116 72,106 90,116 108,106 126,116 144,106 162,116 180,106 198,116 220,108"
+            fill="none" stroke="#ffd70a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="0,122 18,132 36,122 54,132 72,122 90,132 108,122 126,132 144,122 162,132 180,122 198,132 220,124"
+            fill="none" stroke="#ffd70a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- No parking arrow from road to kerb -->
+  <line x1="110" y1="30" x2="110" y2="88" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="110,96 98,74 122,74" fill="#ffffff"/>
+  <!-- P with strike-through (no parking symbol) -->
+  <circle cx="110" cy="45" r="24" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <text x="110" y="50" font-size="22" fill="#ffffff" text-anchor="middle"
+        dominant-baseline="middle" font-weight="bold" font-family="Arial,sans-serif">P</text>
+  <line x1="90" y1="28" x2="130" y2="62" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>

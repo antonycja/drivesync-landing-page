@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <rect x="2" y="2" width="196" height="156" rx="6" fill="#ffd70a" stroke="#cc8800" stroke-width="4"/>
+  <!-- Two upward arrows -->
+  <line x1="60" y1="140" x2="60" y2="40" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="60,22 46,50 74,50" fill="#333333"/>
+  <line x1="100" y1="140" x2="100" y2="40" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="100,22 86,50 114,50" fill="#333333"/>
+  <!-- Red regulatory speed circle (temporary) -->
+  <circle cx="158" cy="82" r="35" fill="#ffffff" stroke="#e20a16" stroke-width="7"/>
+  <text x="158" y="86" font-size="28" fill="#000000" text-anchor="middle"
+        dominant-baseline="middle" font-weight="bold" font-family="Arial,sans-serif">80</text>
+</svg>

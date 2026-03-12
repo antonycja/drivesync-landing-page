@@ -1,0 +1,162 @@
+[
+  {
+    "code": "GS403",
+    "name": "Lanes Merging Without Reduction",
+    "category": "information",
+    "image": "/signs/gs403.svg",
+    "meaning": "Lanes are merging but no lane is being reduced. Traffic must merge smoothly.",
+    "color": "White background, red border, black arrows"
+  },
+  {
+    "code": "R320",
+    "name": "High Occupancy / Bus Lane",
+    "category": "regulatory",
+    "image": "/signs/r320.svg",
+    "meaning": "Designates a lane for high-occupancy vehicles (HOV) or buses only.",
+    "color": "Blue background, white symbol and diamond with number"
+  },
+  {
+    "code": "R320-P",
+    "name": "High Occupancy Parking Lane",
+    "category": "regulatory",
+    "image": "/signs/r320_p.svg",
+    "meaning": "Designates a parking lane for high-occupancy vehicles only.",
+    "color": "Blue background, white P and diamond with number"
+  },
+  {
+    "code": "GF8",
+    "name": "Service Station",
+    "category": "information",
+    "image": "/signs/gf8.svg",
+    "meaning": "Freeway service sign showing available facilities (fuel, towing, accommodation) and their distances ahead.",
+    "color": "Brown background, white text and symbols"
+  },
+  {
+    "code": "GF12",
+    "name": "Emergency SOS Call Station",
+    "category": "information",
+    "image": "/signs/gf12.svg",
+    "meaning": "Emergency SOS telephone call station at the specified distance ahead.",
+    "color": "Brown background, yellow circle with SOS"
+  },
+  {
+    "code": "GA4",
+    "name": "Freeway Exit Direction",
+    "category": "information",
+    "image": "/signs/ga4.svg",
+    "meaning": "Indicates the direction to leave (exit) the freeway. GA4(E) variant has green background with EXIT.",
+    "color": "Blue background, white arrow and route number"
+  },
+  {
+    "code": "W102",
+    "name": "Crossroads Ahead",
+    "category": "warning",
+    "image": "/signs/w102.svg",
+    "meaning": "A crossroads (four-way intersection) is ahead. Approach with caution.",
+    "color": "Red border triangle, white background, black cross symbol"
+  },
+  {
+    "code": "W104",
+    "name": "T-Intersection Ahead",
+    "category": "warning",
+    "image": "/signs/w104.svg",
+    "meaning": "A T-intersection is ahead. The road you are on ends at a cross-road.",
+    "color": "Red border triangle, white background, black T symbol"
+  },
+  {
+    "code": "ES186",
+    "name": "Keep Left / Left Lane Only",
+    "category": "regulatory",
+    "image": "/signs/keep_left.svg",
+    "meaning": "Keep to the left lane only. Mandatory instruction sign — must be obeyed.",
+    "color": "Blue circle, white diagonal down-left arrow"
+  },
+  {
+    "code": "RR101",
+    "name": "Width Restriction — Yield to Oncoming",
+    "category": "regulatory",
+    "image": "/signs/yield_to_oncoming.svg",
+    "meaning": "Road width is restricted. You must yield to oncoming traffic approaching from the other direction.",
+    "color": "Red circle border, white background, red up arrow + black down arrow"
+  },
+  {
+    "code": "BR301",
+    "name": "Motorcycle Mandatory Lane",
+    "category": "regulatory",
+    "image": "/signs/motorcycle_r.svg",
+    "meaning": "This lane is designated for motorcycles. Motorcyclists must use this part of the road.",
+    "color": "Blue rectangle, white motorcycle symbol and R"
+  },
+  {
+    "code": "RR3",
+    "name": "No Overtaking by Goods Vehicles",
+    "category": "regulatory",
+    "image": "/signs/no_overtaking_trucks.svg",
+    "meaning": "Goods vehicles (trucks) are prohibited from overtaking other vehicles in this zone.",
+    "color": "White circle, red border, two trucks with red diagonal strike"
+  },
+  {
+    "code": "GF527",
+    "name": "High Speed Exit — 100m",
+    "category": "information",
+    "image": "/signs/high_speed_exit.svg",
+    "meaning": "A high-speed exit ramp is 100 metres ahead. Begin to reduce speed in preparation.",
+    "color": "Blue background, white diagonal stripe"
+  },
+  {
+    "code": "TR301",
+    "name": "Traffic Camera",
+    "category": "information",
+    "image": "/signs/traffic_camera.svg",
+    "meaning": "A camera is monitoring the intersection at the traffic light for red light or speed violations.",
+    "color": "White background, black border, traffic light + camera on tripod symbol"
+  },
+  {
+    "code": "TR209",
+    "name": "STOP",
+    "category": "regulatory",
+    "image": "/signs/stop.svg",
+    "meaning": "Come to a complete stop at the stop line. Proceed only when the way is completely clear.",
+    "color": "Red octagon, white text STOP"
+  },
+  {
+    "code": "TR201",
+    "name": "YIELD (Give Way)",
+    "category": "regulatory",
+    "image": "/signs/yield.svg",
+    "meaning": "Give right of way to all traffic on the road you are entering. Stop if necessary.",
+    "color": "Red border inverted triangle, white background with red YIELD text"
+  },
+  {
+    "code": "MS-LT",
+    "name": "Mandatory Turn Left",
+    "category": "regulatory",
+    "image": "/signs/turn_left.svg",
+    "meaning": "You must turn left. Mandatory instruction — no other direction is permitted.",
+    "color": "Blue circle, white left-turn arrow"
+  },
+  {
+    "code": "ALT-A",
+    "name": "Alternative Route",
+    "category": "information",
+    "image": "/signs/alternative_route.svg",
+    "meaning": "There is an alternative route at the next intersection in the direction shown.",
+    "color": "Green rectangle, yellow circle with A, white arrow"
+  },
+  {
+    "code": "N-BRIDGE",
+    "name": "National Road Bridge Sign",
+    "category": "information",
+    "image": "/signs/n12_bridge.svg",
+    "meaning": "Indicates the presence of a bridge on the specified national route.",
+    "color": "Blue background, white N12 text and bridge arch symbol"
+  },
+  {
+    "code": "CHEVRON",
+    "name": "Chevron Hazard Boards",
+    "category": "warning",
+    "image": "/signs/chevrons.svg",
+    "meaning": "Warns of a sharp bend, obstruction, or narrowing ahead. Slow down and be prepared to stop.",
+    "color": "Red and white diagonal stripes"
+  }
+]

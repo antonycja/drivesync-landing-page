@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect x="2" y="2" width="196" height="196" rx="8" fill="#ffd70a" stroke="#cc8800" stroke-width="4"/>
+  <!-- Two straight upward arrows (right lanes) -->
+  <line x1="110" y1="175" x2="110" y2="50" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+  <polygon points="110,28 96,58 124,58" fill="#000000"/>
+  <line x1="150" y1="175" x2="150" y2="50" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+  <polygon points="150,28 136,58 164,58" fill="#000000"/>
+  <!-- Diagonal arrow from bottom-left merging into left straight arrow -->
+  <path d="M 40,175 Q 40,130 75,100 Q 95,82 110,65"
+        fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
